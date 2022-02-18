@@ -1,0 +1,205 @@
+/*** Content top moto ** */
+#banner-topmoto > a > figure {
+  width: 100%;
+  height: 280px;
+  background-color: #f6f6f6;
+  display: block; }
+  #banner-topmoto > a > figure > img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.container-topmoto {
+  position: relative; }
+  .container-topmoto > .container:first-child {
+    margin-top: -30px;
+    position: relative;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.26);
+    z-index: 2;
+    background-color: #fff; }
+  .container-topmoto .search-topmoto {
+    padding: 15px;
+    background-color: #f5f5f5; }
+    .container-topmoto .search-topmoto > .title-second > .pull-left {
+      margin-left: 20px; }
+  .container-topmoto .search-brand-type {
+    padding: 15px;
+    width: 100%;
+    background-color: #fff;
+    float: left; }
+    .container-topmoto .search-brand-type > .ct-type {
+      margin-top: 20px; }
+    .container-topmoto .search-brand-type .list-brand {
+      width: 100%;
+      padding: 0 10px;
+      list-style-type: none;
+      display: inline-block; }
+      .container-topmoto .search-brand-type .list-brand > li {
+        padding: 0 5px;
+        width: 10%;
+        float: left; }
+        .container-topmoto .search-brand-type .list-brand > li > a {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          border: 1px solid #ebebeb; }
+          .container-topmoto .search-brand-type .list-brand > li > a:hover {
+            -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.1);
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
+          .container-topmoto .search-brand-type .list-brand > li > a > figure {
+            background-color: #fff; }
+            .container-topmoto .search-brand-type .list-brand > li > a > figure > img {
+              height: 61px; }
+    .container-topmoto .search-brand-type .list-moto {
+      width: 100%;
+      padding: 0 5px;
+      list-style-type: none;
+      display: inline-block; }
+      .container-topmoto .search-brand-type .list-moto > li {
+        padding: 0 10px;
+        width: 9.09%;
+        float: left; }
+        .container-topmoto .search-brand-type .list-moto > li > a {
+          width: 100%;
+          text-align: center;
+          display: inline-block; }
+          .container-topmoto .search-brand-type .list-moto > li > a:hover {
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
+          .container-topmoto .search-brand-type .list-moto > li > a > figure {
+            background-color: #fff; }
+            .container-topmoto .search-brand-type .list-moto > li > a > figure > img {
+              height: 70px; }
+          .container-topmoto .search-brand-type .list-moto > li > a > span {
+            color: #595959; }
+
+.box-search-topmoto {
+  padding: 0 5px; }
+  .box-search-topmoto > li {
+    padding: 0 10px; }
+    .box-search-topmoto > li > a.btn-danger {
+      width: 100%; }
+    .box-search-topmoto > li > select {
+      width: 100%;
+      height: 33px; }
+
+.list-utility {
+  margin: 30px 0 0;
+  width: 100%;
+  padding: 0 5px;
+  list-style-type: none;
+  display: inline-block; }
+  .list-utility > li {
+    padding: 0 10px;
+    width: 20%;
+    float: left; }
+    .list-utility > li > a {
+      color: #000;
+      text-transform: uppercase;
+      position: relative; }
+      .list-utility > li > a:hover {
+        color: #0088d6; }
+      .list-utility > li > a > span {
+        padding: 0 0 0 60px;
+        height: 50px;
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle; }
+      .list-utility > li > a > i {
+        width: 49px;
+        height: 49px;
+        margin-right: 3px;
+        border-radius: 100%;
+        position: absolute; }
+      .list-utility > li > a > .icon-pricing-research {
+        background-color: #8bc24a;
+        background-position: -75px -160px !important; }
+      .list-utility > li > a > .icon-search-brand {
+        background-color: #e71e26;
+        background-position: -75px -210px !important; }
+      .list-utility > li > a > .icon-efficiency {
+        background-color: #ff8e01;
+        background-position: -124px -160px !important; }
+      .list-utility > li > a > .icon-fix-moto {
+        background-color: #ffc928;
+        background-position: -122px -210px !important; }
+      .list-utility > li > a > .icon-call-sos {
+        background-color: #42a5f6;
+        background-position: -75px -259px !important; }
+
+.ct-list-new-bike {
+  margin: 30px auto; }
+
+.list-bike-topmoto {
+  margin-bottom: 20px;
+  padding: 0 10px; }
+  .list-bike-topmoto > li:nth-child(6n+1) {
+    clear: left; }
+  .list-bike-topmoto > li > a {
+    background-color: #fff; }
+    .list-bike-topmoto > li > a > figure {
+      background-color: #f6f6f6;
+      height: 150px; }
+
+.btn-see-more {
+  padding: 6px 25px;
+  background-color: #fff;
+  color: #595959; }
+
+#model-series-topmoto {
+  padding: 30px 0;
+  background-color: #fff; }
+
+.list-model-topmoto > li {
+  width: 20%;
+  display: none; }
+  .list-model-topmoto > li:first-child, .list-model-topmoto > li:nth-child(2), .list-model-topmoto > li:nth-child(3), .list-model-topmoto > li:nth-child(4), .list-model-topmoto > li:nth-child(5) {
+    display: inline-block; }
+.list-model-topmoto figure {
+  height: 175px; }
+
+.rank {
+  background-position: -108px -309px !important;
+  margin: -7px 6px 0 0;
+  width: 35px;
+  height: 30px;
+  color: #000;
+  line-height: 39px;
+  float: left; }
+
+.rank1 {
+  background-position: 3px -309px !important; }
+
+.rank2 {
+  background-position: -34px -309px !important; }
+
+.rank3 {
+  background-position: -71px -309px !important; }
+
+.rank4 {
+  background-position: -108px -309px !important; }
+
+
+#banner-topmoto > figure > a{
+  width: 100%;
+  display: block;
+}
+#banner-topmoto > figure > a > img{
+  width: 100%;
+  object-fit: cover;
+}
+/*# sourceMappingURL=topmoto.css.map */

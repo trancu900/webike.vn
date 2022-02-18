@@ -1,0 +1,110 @@
+/*For Left Menu*/
+.block_menu_suggest_bike{
+    padding: 10px;
+    background: #fff;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.block_menu_suggest_bike .module-title {
+    font-weight: bold;
+    padding: 5px 0px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+}
+.block_menu_suggest_bike ul {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.block_menu_suggest_bike ul li{
+    position: relative;
+    margin-bottom: 15px;
+}
+.block_menu_suggest_bike ul li a{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 10px;
+}
+.block_menu_suggest_bike ul li .icon-arrow-right {
+    position: absolute;
+    right: 0px;
+    top: 11px;
+}
+.block_menu_suggest_bike ul li .icon-arrow-right:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border: solid #000;
+    border-width: 1px 1px 0 0;
+    -webkit-transform: rotate(45deg) translateY(-3px);
+    -ms-transform: rotate(45deg) translateY(-3px);
+    transform: rotate(45deg) translateY(-3px);
+    margin-right: 16px;
+}
+.block_menu_suggest_bike a.btn_viewmore{
+    width: 100%;
+    background-color: #e61e25;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+.block_menu_suggest_bike a.btn_viewmore:hover{
+    background-color: #ec5459;
+}
+
+/*For block*/
+.suggest_bike{
+    background-color: #fff;
+    padding-top: 16px;
+}
+.suggest_bike .suggest-body .suggest-row{
+    width: 100%;
+    display: inline-block;
+}
+.suggest_bike .suggest-body .suggest-row .suggest-content{
+    display: inline-block;
+    width: 100%;
+}
+.suggest_bike .suggest-body .suggest-row .suggest-content .item{
+    width: 32%;
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    position: relative;
+}
+.suggest_bike .suggest-body .suggest-row .suggest-content .item:nth-child(3n){
+    margin: 0 0 10px 0;
+}
+.suggest_bike .suggest-body .suggest-row .suggest-content .item a{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 10px;
+}
+.suggest_bike .suggest-body .suggest-row .suggest-content .item a:hover, 
+.suggest_bike .suggest-body .suggest-row .suggest-content .item a:active{
+    color: #E71E26;
+}
+.icon-arrow-right{
+    position: absolute;
+    right: 0px;
+    top: 11px;
+}
+.icon-arrow-right:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border: solid #000;
+    border-width: 1px 1px 0 0;
+    -webkit-transform: rotate(45deg) translateY(-3px);
+    -ms-transform: rotate(45deg) translateY(-3px);
+    transform: rotate(45deg) translateY(-3px);
+    margin-right: 16px;
+}
