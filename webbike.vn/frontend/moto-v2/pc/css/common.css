@@ -1,0 +1,100 @@
+.btn-arrow-right:after {
+    right: 20px;
+}
+
+#menu-overlay.loading {
+    cursor: default;
+    background-image: none;
+}
+.hide{
+    display: none !important;
+}
+.overlay, #menu-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    z-index: 11;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.loading {
+    background: #fff url(../img/loader.gif) 50% 50% no-repeat;
+    background-size: 20px 20px;
+    min-height: 30px;
+}
+
+#menu-overlay.loading::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    background: #fff url(../img/loader.gif) 50% 50% no-repeat;
+    z-index: 1;
+}
+
+.disabled {
+    pointer-events: none!important;
+    cursor: default!important;
+    opacity: 0.6;
+}
+
+.error{
+    border-color: red !important;
+}
+#onesignal-bell-container.onesignal-reset.onesignal-bell-container-bottom-right{
+    bottom: 150px !important;
+}
+span.follow-icon {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    display: -webkit-inline-box;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    left: 8px;
+    background: rgba(0,0,0,.6);
+    bottom: 5px;
+}
+span.follow-icon:hover{
+    opacity: 0.7;
+}
+.icon-top-v2 {
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    overflow: hidden;
+    text-indent: 16px;
+    white-space: nowrap;
+    background: url(../../../img/icon-vn-desktop@2x.png) 0 0 no-repeat;
+    background-size: 242px 242px;
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    position: absolute;
+    left: 3px;
+}
+.liked{
+    background-position: 0px -110px;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+.unlike{
+    background-position: -132px 0px;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}

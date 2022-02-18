@@ -1,0 +1,50 @@
+.custom_scroll::-webkit-scrollbar {
+    width: 5px;
+    opacity: 0.5;
+    background-color: #F5F5F5;
+}
+.custom_scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    opacity: 0.5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.custom_scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    opacity: 0.5;
+    background-color: #F5F5F5;
+}
+.maker-detail-label a::first-letter{
+ text-transform: uppercase;
+}
+.brand_detail_page .left-side{
+    width: 275px !important;
+}
+.checkbox-corner input{
+    position: absolute;
+}
+.brand_detail_page .info-brand .all-models .models-group .model-list .model figure img{
+    object-fit: contain;
+}
+.comp_motors .item figure img{
+     object-fit: contain !important;
+}
+.brand_detail_page .info-brand .all-models .filters table tr.filter-by .list p{
+    cursor: pointer;
+}
+.brand_detail_page .info-brand .all-models .models-group .model-list .model .model-info p{
+    font-size: 0.82rem !important;
+}
+.brand_detail_page .info-brand .all-models .models-group .model-list .model .model-info .model-name{
+    line-height: 32px !important;
+}
+.brand_detail_page .info-brand .all-models .filters table tr td:first-child{
+    width: 140px;
+}
+.custom-btn:after{
+    right: 5px !important;
+}
+.border-line{
+    border-bottom: 1px solid #efefef;
+}
